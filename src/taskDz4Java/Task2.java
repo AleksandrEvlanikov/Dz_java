@@ -16,6 +16,7 @@ public class Task2<E> {
         numbers.add(9);
         numbers.add(21);
         System.out.println(numbers);
+
     }
 
     public void enqueue(E item) {

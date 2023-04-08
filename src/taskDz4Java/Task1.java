@@ -19,6 +19,7 @@ public class Task1 {
             reversNumbers.add(numbers.get(i));
             System.out.println(reversNumbers);
 
+
         }
     }
 }

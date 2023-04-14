@@ -1,9 +1,7 @@
-import taskDz3Java.Task3;
-import taskDz4Java.Task1;
-import taskDz4Java.Task2;
-//import task.Lesson1Dz1.*;
-//import taskDz2Java.Task1;
-//import taskDz2Java.Task2;
+import taskDz5Java.Task1;
+import taskDz5Java.Task2;
+//import taskDz4Java.Task1;
+
 
 
 public class Main {
@@ -22,13 +20,16 @@ public class Main {
 //        Task2.delWholeNumbers();
 //        Task3.maxMinMidNumbers();
 //        Task1.numbersLinkedList();
-        Task2<Integer> task = new Task2<>();
-        task.methodsLinkedList();
-
-        task.enqueue(7);
-        System.out.println(task.first());
-        System.out.println(task.dequeue());
-        System.out.println(task.first());
+//        Task2<Integer> task = new Task2<>();
+//        task.methodsLinkedList();
+//
+//        task.enqueue(7);
+//        System.out.println(task.first());
+//        System.out.println(task.dequeue());
+//        System.out.println(task.first());
+//        Дз 5
+//        Task1.phoneBook();
+        Task2.recurringEmployees();
 
 
 

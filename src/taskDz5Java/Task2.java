@@ -42,12 +42,7 @@ public class Task2 {
         }
 
         List<Map.Entry<String, Integer>> sortedList = new ArrayList<>(employeesCount.entrySet());
-        Collections.sort(sortedList, new Comparator<Map.Entry<String, Integer>>() {
-            @Override
-            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-                return o2.getValue().compareTo(o1.getValue());
-            }
-        });
+        Collections.sort(sortedList, (o1, o2) -> o2.getValue().compareTo(o1.getValue()));
 
         for (Map.Entry<String, Integer> k : sortedList) {
             System.out.println(k.getKey() + " " + k.getValue());
